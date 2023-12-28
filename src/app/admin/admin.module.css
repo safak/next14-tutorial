@@ -1,0 +1,36 @@
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+}
+
+.row h1{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.col {
+  flex: 1;
+}
+
+.col  img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.line{
+  margin: 100px;
+  color: var(--bgSoft)
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}

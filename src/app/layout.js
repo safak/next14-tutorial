@@ -17,9 +17,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body 
+      className={inter.className}
+      >
         {/* <ClientSideProviderTest> */}
-          <div className="container">
+          <div 
+          className="absolute h-screen w-full top-0 "
+          >
             <Navbar />
             {children}
             <Footer />
